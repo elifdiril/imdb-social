@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import { useState, useEffect } from 'react';
 import Topic from './components/Topic';
 import Details from './components/Details';
@@ -6,11 +6,14 @@ import User from './components/User';
 import Header from './components/Header';
 
 const App = () => {
-  const url = "http://localhost:3001/posts/";
+  const url = "http://localhost:3002/posts/";
 
   const [posts, setPosts] = useState([]);
-  useEffect(async () => {
+  useEffect(() => {
+    async function fetchData(){
     const getPosts = await fetch(url).then(res => res.json()).then(data => setPosts(data))
+    }
+    fetchData();
   }, []);
 
   const [post, setPost] = useState();

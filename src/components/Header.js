@@ -6,10 +6,10 @@ const Header = () => {
 
     return (
         <div className="header">
-            <img src={Icon} className="header-pic" />
-            <img src={Pp} className="header-pp" />
+            <img alt="icon"  src={Icon} className="header-pic" />
+            <img alt="pp" src={Pp} className="header-pp" />
             <div className="search"></div>
-            <img src={SearchPic} className="search-pic" />
+            <img alt="search" src={SearchPic} className="search-pic" />
         </div>
     )
 }
