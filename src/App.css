@@ -1,0 +1,186 @@
+.App {
+  background-color: #F5F5F5;
+}
+
+.column-35 {
+  float: left;
+  width: 35%;
+}
+
+.column-30 {
+  float: right;
+  width: 30%;
+}
+
+/* Clear floats after the columns */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Card styles */
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 95%;
+  background-color: white;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+/* Card styles end */
+
+/* User Page */
+
+.box-user {
+  width: 95%;
+  height: 40px;
+  line-height: 40px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.container .card .container .user-pic {
+  top: 138px;
+  left: 981px;
+  width: 36px;
+  height: 36px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  border-radius: 18px;
+  opacity: 1;
+}
+
+.container .card .container .username {
+  top: 200px;
+  left: 1031px;
+  width: 81px;
+  height: 0px;
+  text-align: right;
+  font: normal normal normal 14px/19px Open Sans;
+  color: #16232C;
+  opacity: 1;
+}
+
+.container .card .container .text-styl {
+  top: 159px;
+  left: 1031px;
+  width: 50px;
+  height: 7px;
+  margin-left: 40px;
+  margin-top: 15px;
+  position: static;
+  text-align: left;
+  font: normal normal normal 10px/14px Open Sans;
+  letter-spacing: 0px;
+  /*color: #9B9B9B;*/
+  opacity: 1;
+}
+
+/* User Page End*/
+
+/* Header Page */
+
+.header {
+  top: 0px;
+  left: 0px;
+  width: 1280px;
+  height: 70px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.header-pic {
+  top: 19px;
+  left: 76px;
+  position: relative;
+  width: 106px;
+  height: 32px;
+  opacity: 1;
+  background: transparent url('assets/images/icon.png') 0% 0% no-repeat padding-box;
+}
+
+.header-pp {
+  top: 18px;
+  left: 1105px;
+  width: 34px;
+  height: 34px;
+  opacity: 1;
+  position: relative;
+  border-radius: 18px;
+}
+
+.search {
+  top: -29px;
+  left: 886px;
+  width: 273px;
+  height: 50px;
+  background: #F5F5F5 0% 0% no-repeat padding-box;
+  border: 1px solid #E6E6E6;
+  border-radius: 25px;
+  opacity: 1;
+  position: relative;
+}
+
+.header .search-pic {
+  top: -65px;
+  left: 905px;
+  width: 20px;
+  height: 20px;
+  opacity: 1;
+  position: relative;
+}
+
+/* Header Page End */
+
+/* Topic Page */
+
+.card .container .more {
+  top: 1px;
+  left: 400px;
+  width: 4px;
+  height: 19px;
+  opacity: 1;
+  position: relative;
+}
+
+.card .container .dislike{
+  top: 2px;
+  left: 0px;
+  width: 10px;
+  height: 15px;
+  opacity: 1;
+  position: relative;
+}
+
+.card .container .like{
+  top: 2px;
+  left: 0px;
+  width: 10px;
+  height: 15px;
+  opacity: 1;
+  position: relative;
+}
+
+.card .container .comment{
+  top: 2px;
+  left: 0px;
+  width: 15px;
+  height: 15px;
+  opacity: 1;
+  position: relative;
+}
+ /* Topic Page End */
+
+ /* Details Page */
+
