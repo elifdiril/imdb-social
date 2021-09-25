@@ -9,7 +9,7 @@
 1. _git clone https://github.com/elifdiril/imdb-social.git_
 1. _npm i_
 1. _cd src/assets/jsonFiles/_
-1. _json-server --watch db.json --port 3001_
+1. _json-server --watch db.json --port 3002_
 
 # Getting Started with Create React App
 
